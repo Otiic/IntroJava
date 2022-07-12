@@ -8,7 +8,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>18</maven.compiler.source>
         <maven.compiler.target>18</maven.compiler.target>
-        <exec.mainClass>introjava.ejerciciosmao.EjerciciosMAO</exec.mainClass>
+        <exec.mainClass>introjava.ejerciciosmao.Ejercicio11</exec.mainClass>
     </properties>
     <name>IntroJava</name>
 </project>
