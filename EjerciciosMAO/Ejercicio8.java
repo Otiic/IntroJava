@@ -12,11 +12,11 @@ public class Ejercicio8 {
         nota = leer.nextInt();
         
         while (nota < 0 || nota > 10) {
-            System.out.println("La nota no está entre 0 y 10.");
+            System.out.println("La nota no esta entre 0 y 10.");
             System.out.println("Ingresa la nota de nuevo:");
             nota = leer.nextInt();
         }
         
-        System.out.println("¡La nota está entre 0 y 10!");
+        System.out.println("La nota esta entre 0 y 10!");
     }
 }

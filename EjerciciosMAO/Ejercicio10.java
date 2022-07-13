@@ -8,16 +8,16 @@ public class Ejercicio10 {
         int num1, num2, num3, num4;
         Scanner leer = new Scanner(System.in);
 
-        System.out.println("Ingrese el número 1:");
+        System.out.println("Ingrese el numero 1:");
         num1 = leer.nextInt();
 
-        System.out.println("Ingrese el número 2:");
+        System.out.println("Ingrese el numero 2:");
         num2 = leer.nextInt();
 
-        System.out.println("Ingrese el número 3:");
+        System.out.println("Ingrese el numero 3:");
         num3 = leer.nextInt();
 
-        System.out.println("Ingrese el número 4:");
+        System.out.println("Ingrese el numero 4:");
         num4 = leer.nextInt();
 
         System.out.println("");

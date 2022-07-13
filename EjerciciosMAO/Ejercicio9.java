@@ -9,7 +9,7 @@ public class Ejercicio9 {
         Scanner leer = new Scanner(System.in);
         
         do {
-            System.out.println("Ingresa un número entero:");
+            System.out.println("Ingresa un numero entero:");
             nums = leer.nextInt();
             
             conteo++;
@@ -19,13 +19,13 @@ public class Ejercicio9 {
             }
             
             if (nums == 0) {
-                System.out.println("Se capturó el número cero.");
-                System.out.println("La suma de los números positivos ingresados es: " + suma);
+                System.out.println("Se ha capturado el numero cero.");
+                System.out.println("La suma de los numeros positivos ingresados es: " + suma);
                 break;
             }
             
             if (conteo == 20) {
-                System.out.println("Haz ingresado 20 números y no se ha capturado el cero.");
+                System.out.println("Haz ingresado 20 numeros y no se ha capturado el cero.");
             }
         } while (conteo < 20);
     }

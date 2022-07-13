@@ -19,13 +19,13 @@ public class Ejercicio7 {
                 System.out.println("La bomba es una bomba de gasolina.");
                 break;
             case 3:
-                System.out.println("La bomba es una bomba de hormigón.");
+                System.out.println("La bomba es una bomba de hormigon.");
                 break;
             case 4:
                 System.out.println("La bomba es una bomba de pasta alimenticia.");
                 break;
             default:
-                System.out.println("El valor ingresado no corresponde con ningún tipo de bomba.");
+                System.out.println("El valor ingresado no corresponde con ningun tipo de bomba.");
         }
     }
 }
