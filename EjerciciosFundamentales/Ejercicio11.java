@@ -63,9 +63,9 @@ public class Ejercicio11 {
                     System.out.println(" -> El resultado de la division es: " + (num1 / num2));
                     break;
                 case 5: 
-                    String salir = leer.nextLine();
+                    String salir = leer.nextLine(); //  Esta lectura es para evitar el bug de que el programa no lee un String después de leer un int
                     System.out.println("Esta seguro que desea salir del programa? (S/N)");
-                    salir = leer.nextLine();
+                    salir = leer.nextLine(); // Lectura de verdad del String
                     System.out.println("------------------------------------------------------------------------");
                     
                     if (salir.equals("S")) {
